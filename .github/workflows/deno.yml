@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/cynsarfoundation/earthstar-server:latest
+          tags: ghcr.io/cynsar-foundation/earthstar-server:latest
