@@ -1,4 +1,4 @@
-# P2P Static Website Deployment
+# Earthstar Meets CF
 
 ## Overview
 
@@ -46,8 +46,8 @@ This will run a local server that can sync your data only if the known_shares ar
 
 ## Usage
 
-- Use the Earthstar CLI or an Earthstar-enabled application to publish and sync your static website content across your private network.
-- There is a (repository)[https://github.com/cynsar-foundation/earthlink] includes a simple static site generator. Create your assets (HTML, CSS, JS) within the designated folders and run the build script to prepare them for distribution: (Use the shareAddress and secret from the above)
+- Use the CF Earthstar CLI or an Earthstar-enabled application to publish and sync your static website content across your private network.
+- There is a [repository](https://github.com/cynsar-foundation/earthlink) includes a simple static site generator. Create your assets (HTML, CSS, JS) within the designated folders and run the build script to prepare them for distribution: (Use the shareAddress and secret from the above)
     ```sh
     deno run deploy --name projectName -shareAddress address --secret secret
     ```
